@@ -1,0 +1,149 @@
+<style>
+/latest news/
+.newsbg {
+    background-color: #fefefe;
+    height: 900px;
+}
+
+.newshead {
+    margin-top: 150px;
+    text-align: center;
+    font-size: 45px;
+    font-family: oswald;
+
+
+}
+
+@media(max-width:576px) {
+    .newshead {
+        margin-top: 400%;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+.newspara {
+    text-align: center;
+    font-size: 18px;
+    font-family: oswald;
+    color: #6F6D71;
+    line-height: 30px;
+    margin-top: 20px;
+}
+
+@media(max-width:576px) {
+    .newspara {
+        margin: 15px 50px;
+    }
+}
+
+.newscard {
+    height: 400px;
+    width: auto;
+    border-radius: 10px;
+}
+
+.leftmargin {
+    margin: 50px 50px;
+}
+
+.newscardbody {
+    background-color: #ddd;
+}
+
+@media(max-width:576px) {
+    .newscard {
+        margin-top: 200px;
+
+    }
+}
+
+.newscontent {
+    background-color: #fefefe;
+    border-radius: 10px;
+    padding: 20px 5px;
+    margin-top: 80%;
+}
+
+@media(max-width:576px) {
+    .newscontent {
+        padding: 5px 10px;
+    }
+
+}
+
+.newscardbody:hover {
+
+    .newscontent {
+        margin-top: 70%;
+    }
+
+    .date {
+
+        margin-bottom: 40px;
+    }
+
+}
+
+.clockicon {
+    font-size: 19px;
+    padding-top: 5px;
+    padding-left: 15px;
+
+}
+
+.date {
+    color: #6F6D71;
+    font-size: 18px;
+    font-family: oswald;
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+
+
+.topic {
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 25px;
+    font-family: oswald;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+
+.readmore {
+    margin-left: 8px;
+    font-size: 18px;
+    font-family: oswald;
+    color: #6F6D71;
+}
+
+.newsarticle {
+    margin-left: 23px;
+    font-size: 18px;
+    font-family: oswald;
+    margin-top: 20px;
+    color: #6F6D71;
+}
+
+
+.displayflex {
+    display: flex;
+    padding-left: 15px;
+}
+
+.displayflexone {
+    display: flex;
+    padding-top: 20px;
+}
+
+
+.iconplus {
+    padding-left: 10px;
+    color: red;
+}
+
+.readmore:hover {
+    color: red;
+}
+</style>
